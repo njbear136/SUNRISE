@@ -1,3 +1,7 @@
 function ClickHello() {
-    alert("Hello");
+    alert("MEOW!CAT SAYS HELLO!");
+}
+
+function Redirect() {
+    window.location.href = "cats.html";
 }

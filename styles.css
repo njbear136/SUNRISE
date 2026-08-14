@@ -1,5 +1,5 @@
 *{
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 main {
     display: flex;
@@ -9,14 +9,14 @@ main {
 }
 
 body {
-    background-color: cadetblue;
+    background-color: rgb(255, 164, 228);
     color: white;
 }
 
 h1 {
     font-size: 60px;
     margin: 0;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 h2 {
@@ -24,7 +24,58 @@ h2 {
     font-weight: 500;
 }
 
+h3 {
+    margin-top: -10px;
+    font-weight: 500;
+}
+
+.wiki{
+    display: inline-block;
+    position: relative;
+    top: -150px;
+    margin: 10px;
+}
+
 img{
-    width: 600px;
+    width: 250px;
     border-radius: 20px;
+}
+
+.image-container {
+    display: flex;      
+    gap: 15px;          
+    justify-content: center;
+}
+
+.image-container img {
+    margin-top: 20px;
+    width: 48%;          
+    height: 400px;  
+}
+
+ul {
+    position: relative;
+    top: -20px;
+}
+
+.type {
+    text-decoration: underline;
+
+}
+
+.yo {
+    margin: 20px;
+}
+
+button {
+    background-color: #8ca0fa;
+    color: white;      
+    padding: 12px 24px;  
+    border: none;              
+    border-radius: 20px;     
+}
+
+button:hover {
+   background-color: #8ce4fa;
+   transition: background-color  0.3s ease, box-shadow 0.3s ease;  
 }
